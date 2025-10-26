@@ -1,0 +1,14 @@
+/* Basic styling for the student summary report */
+:root{--bg:#f6f8fa;--card:#fff;--muted:#555}
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:#222; margin:0}
+.container{max-width:980px;margin:28px auto;padding:20px}
+.site-header{display:flex;align-items:center;gap:16px;padding:18px 20px;background:linear-gradient(90deg,#ffffffcc,#f3f4f6cc);border-bottom:1px solid #e2e8f0}
+.logo{width:64px;height:64px;object-fit:contain;border-radius:8px}
+h1{margin:0;font-size:22px}
+.subtitle{margin:0;color:var(--muted)}
+.summary, .top-students, .histogram, .data-preview{background:var(--card);padding:16px;margin:18px 0;border-radius:8px;box-shadow:0 1px 2px rgba(0,0,0,0.03)}
+table{width:100%;border-collapse:collapse}
+table thead th{background:#f1f5f9;padding:8px;border-bottom:1px solid #e2e8f0;text-align:left}
+table td{padding:8px;border-bottom:1px solid #f3f4f6}
+.chart{max-width:100%;height:auto;border:1px solid #e6eef8;padding:6px;background:#fff}
+.site-footer{text-align:center;padding:14px;color:#666;font-size:13px}
